@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background: rgba(0, 0, 0, 0.1);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    /* overflow-x: auto; */
+}
+
+.main-child{
+    /* overflow-x: auto; */
+    display: flex;
+}
+
+.carousel-parent{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    display: inline-flex;
+    transition: .6s;
+}
+
+.carousel-parent span{
+    display: block;
+    height: 50%;
+    width: 50%;
+    background: blue;
+}
